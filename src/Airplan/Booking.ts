@@ -1,14 +1,15 @@
-import { Passenger } from "../Human/Passenger";
+// import { Passenger } from "../Human/Passenger";
 import { Trip } from "./Trip";
 import { Tickets } from "../Medical/Tickit";
 export class Booking{
-    public passenger : Passenger[]=[];
-    public Trip : Trip;
+    // public passenger : Passenger[]=[];
+    public trip : Trip[]= [];
     public ticket : Tickets;
     private price : number;
-    private returetickit: undefined;
-    constructor(price : number, returetickit){
+    constructor(price : number){
         this.price = price;
-        this.returetickit = returetickit;
+    }
+    addTrip(trip: Trip){
+        this.trip.push(trip)
     }
 }
