@@ -24,8 +24,6 @@ let flight2 = new Flight("11:am", "01:pm", "AASS01", "A1");
 let coPilot1 = new Co_Pilot("villa", "nhea", "20", "male", 123, "pp", "kk", 12)
 let coPilot2 = new Pilot("villa", "nhea", "20", "male", 123, "pp", "kk", 120)
 
-
-
 airline1.addBooking(booking1);
 airline1.addBooking(booking2);
 

@@ -18,10 +18,7 @@ export class Flight {
         this.flightNumber = flightNumber;
         this.gate = gate;
     }
-
     addMeal(meal: Meal) {
         this.meals.push(meal);
     }
-    
-
 }

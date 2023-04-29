@@ -12,7 +12,7 @@ export class Airline {
         this.name = name;
         this.address = address;
     }
-   
+
     addBooking(booking: Booking){
         this.bookings.push(booking);
     }
@@ -28,7 +28,6 @@ export class Airline {
     addEmployee(em:Employee){
         this.employee.push(em);
     }
-    
 
     // find salary
     salary():number{

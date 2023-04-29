@@ -8,6 +8,7 @@ export class Pilot  extends Employee {
         super(firstName, lastName, dateOfbirth, gender, phoneNumber, position, manager);
         this.salary = salary;
     }
+<<<<<<< HEAD
     getsalary():number{
         return this.salary;
     }
@@ -28,3 +29,19 @@ export class Pilot  extends Employee {
 
 }
 
+=======
+    
+    addflights(flight: Flight){
+        this.flight.push(flight);
+    }
+    getflight(date: string){
+        let test:Flight[]=[];
+        for (let listflight of this.flight){
+            if (listflight["startDate"] === date){
+                test.push(listflight);
+            }
+    }
+    return test;
+    }
+}
+>>>>>>> f3c5b16ae5224fa4c0e3d73b50a4dedc2013821a
