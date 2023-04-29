@@ -20,7 +20,6 @@ let bags1 = new Bag("red", "S2", "Ms", "1k")
 let flight1 = new Flight("11:am", "12:pm", "AASS01", "A1");
 let flight2 = new Flight("11:am", "01:pm", "AASS01", "A1");
 
-
 airline1.addBooking(booking1);
 airline1.addBooking(booking2);
 

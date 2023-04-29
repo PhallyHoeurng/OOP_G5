@@ -1,7 +1,6 @@
 import { Person } from "./Person";
 import { Pilot } from "./Pilot";
 import { Co_Pilot } from "./Co_Pilot";
-
 export class Employee extends Person {
     public position: string;
     public pilot : Pilot[]=[];

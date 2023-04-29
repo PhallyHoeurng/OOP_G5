@@ -25,8 +25,7 @@ export class Airline {
         });
         return countpassenger;
     };
-
-     getMealsByFlight(flight1: Flight) {
+    //  getMealsByFlight(flight1: Flight) {
         
-    }
+    // }
 };

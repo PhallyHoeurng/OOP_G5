@@ -1,5 +1,4 @@
 import { Employee } from './Employee'
-
 export class Co_Pilot extends Employee{
     public employee: Employee;
     private salary: number;

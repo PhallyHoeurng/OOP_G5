@@ -22,5 +22,4 @@ export class Flight {
     addMeal(meal: Meal) {
         this.meals.push(meal);
     }
-
 }
