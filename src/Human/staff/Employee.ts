@@ -6,8 +6,10 @@ export class Employee extends Person {
     public position: string;
     public pilot : Pilot[]=[];
     public co_pilot: Co_Pilot[] = [];
-    constructor(firstName:string, lastName:string, dateOfbirth:string,gender:string, phoneNumber:number, position:string){
+    public manager : string ;
+    constructor(firstName:string, lastName:string, dateOfbirth:string,gender:string, phoneNumber:number, position:string, manager:string){
         super(firstName,lastName,dateOfbirth,gender,phoneNumber)
         this.position = position;
+        this.manager = manager;
     }
 }

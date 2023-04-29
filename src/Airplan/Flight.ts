@@ -1,4 +1,12 @@
+import { Trip } from "./Trip";
+import { Aeroplanes } from "./Aeroplanes";
+import { Meal} from "../Medical/Meal";
+import { Route } from "./route";
 export class Flight {
+    private aeroplanes: Aeroplanes;
+    public trip : Trip;
+    public Meal : Meal[]=[];
+    public route : Route[]=[];
     private startDate : string;
     private endDate : string;
     private flightNumber : string;
