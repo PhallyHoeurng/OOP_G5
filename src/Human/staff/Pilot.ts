@@ -12,7 +12,7 @@ export class Pilot  extends Employee {
     addflights(flight: Flight){
         this.flight.push(flight);
     }
-   getflight(date: string){
+    getflight(date: string){
     let test:Flight[]=[];
     for (let listflight of this.flight){
         if (listflight["startDate"] === date){
