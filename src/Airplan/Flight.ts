@@ -5,7 +5,7 @@ import { Route } from "./route";
 export class Flight {
     public aeroplanes: Aeroplanes;
     public trip : Trip[] = [];
-    public Meal : Meal[]=[];
+    public meals : Meal[]=[];
     public route : Route[]=[];
     private startDate : string;
     private endDate : string;
@@ -18,4 +18,9 @@ export class Flight {
         this.flightNumber = flightNumber;
         this.gate = gate;
     }
+
+    addMeal(meal: Meal) {
+        this.meals.push(meal);
+    }
+
 }
